@@ -16,7 +16,6 @@
   @mixin x-tabs__toggle;
 }
 
-/* NOTE: Named "--structure" to avoid collision with `x-tabs.skin.css`'s mixin of the same class name */
 @define-mixin x-tabs__tab--structure {
   white-space: nowrap;
   cursor: pointer;
@@ -25,7 +24,6 @@
   @mixin x-tabs__tab--structure;
 }
 
-/* NOTE: Named "--structure" to avoid collision with `x-tabs.skin.css`'s mixin of the same class name */
 @define-mixin x-tabs__content--structure {
   width: 100%;
   display: none;

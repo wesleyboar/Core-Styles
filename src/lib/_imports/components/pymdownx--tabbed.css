@@ -10,11 +10,11 @@
 }
 .tabbed-set > .tabbed-content {
   @mixin x-tabs__content--structure;
-  @mixin x-tabs__content;
+  @mixin x-tabs__content--skin;
 }
 .tabbed-set > label {
   @mixin x-tabs__tab--structure;
-  @mixin x-tabs__tab;
+  @mixin x-tabs__tab--skin;
 
   margin-bottom: unset; /* overwrite form.css which core-style.docs loads */
 }
